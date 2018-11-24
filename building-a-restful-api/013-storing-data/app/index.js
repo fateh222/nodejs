@@ -13,7 +13,7 @@ var fs = require('fs');
 var _data =require('./lib/data');
 
 
-_data.create('test', 'asd', {"asd": "asdasd"}, function(err) {
+_data.create('test', 'newFile', {"asd": "asdasd"}, function(err) {
   console.log(err);
 });
 
