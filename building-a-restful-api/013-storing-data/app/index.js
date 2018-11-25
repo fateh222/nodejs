@@ -13,9 +13,29 @@ var fs = require('fs');
 var _data =require('./lib/data');
 
 
-_data.create('test', 'newFile', {"asd": "asdasd"}, function(err) {
-  console.log(err);
-});
+/*
+* @TODO check the CRUD
+* @@ Delete this later
+*/
+// Create data with file
+// _data.create('test', 'newFile', {"asd": "asdasd"}, function(err) {
+//   console.log(err);
+// });
+
+// Read data from file.
+// _data.read('test', 'newFile', function(err, data){
+//   console.log('This was the error: '+err+' and this was the data', data);
+// });
+
+// Update the data into the file
+// _data.update('test', 'newFile', {"yoo": "Honey"}, function(err) {
+//   console.log(err);
+// });
+
+// Delete the data
+// _data.delete('test', 'newFile', function(err) {
+//   console.log('This was the error:- ', err);
+// });
 
  // Instantiate the HTTP server
 var httpServer = http.createServer(function(req,res){
